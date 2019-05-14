@@ -2,7 +2,6 @@ Upstream gnuradio ships the following in GR_RUNTIME_DIR
 (usually /usr/local/bin):
 
 gr_filter_design.py usrp_flex.py usrp_flex_band.py usrp_flex_all.py
-hrpt_decode.py hrpt_demod.py file_rx_hrpt.py usrp_rx_hrpt.py usrp_rx_hrpt_nogui.py
 gr_plot_char.py gr_plot_const.py gr_plot_float.py gr_plot_int.py gr_plot_short.py
 gr_plot_iq.py gr_plot_qt.py
 gr_plot_fft.py gr_plot_fft_c.py gr_plot_fft_f.py

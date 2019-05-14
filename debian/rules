@@ -3,7 +3,7 @@ DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
 export DEB_HOST_MULTIARCH
 
 %:
-	dh $@ --with python2
+	dh $@ --with python3
 
 override_dh_auto_configure:
 	dh_auto_configure -- -DLIB_SUFFIX="/$(DEB_HOST_MULTIARCH)" -DPYTHON_EXECUTABLE:STRING="/usr/bin/python" -DENABLE_INTERNAL_VOLK=OFF

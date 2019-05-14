@@ -1,6 +1,5 @@
 debian/dial_tone.1
 debian/fcd_nfm_rx.1
-debian/file_rx_hrpt.1
 debian/gnuradio-companion.1
 debian/gnuradio-config-info.1
 debian/grcc.1
@@ -49,8 +48,6 @@ debian/gr_time_plot_i.1
 debian/gr_time_plot_s.1
 debian/gr_time_raster_b.1
 debian/gr_time_raster_f.1
-debian/hrpt_decode.1
-debian/hrpt_demod.1
 debian/polar_channel_construction.1
 debian/tags_demo.1
 debian/uhd_fft.1
@@ -61,5 +58,3 @@ debian/uhd_siggen_gui.1
 debian/usrp_flex.1
 debian/usrp_flex_all.1
 debian/usrp_flex_band.1
-debian/usrp_rx_hrpt.1
-debian/usrp_rx_hrpt_nogui.1
